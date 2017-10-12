@@ -1,0 +1,29 @@
+<gcard>
+	
+	
+	<detector name="ltcc" factory="TEXT" variation="original"/>
+	
+
+	<option name="geometry" value="600x600"/>
+	<option name="RECORD_PASSBY" value="1"/>
+	<option name="RECORD_MIRRORS"     value="1"/>
+
+	
+	
+	<option name="BEAM_P"        value="e-, 1*GeV, 0*deg, 0*deg"/>
+	
+	<option name="BEAM_V"        value="(0,0,0)cm"/>
+	<option name="SPREAD_V"      value="(0,2.5)cm"/>
+
+	<option name="SCALE_FIELD" value="clas12-torus-big, -1"/>
+
+ 	<option name="HALL_FIELD"  value="clas12-solenoid"/>
+
+
+
+	<option name="OUTPUT"        value="evio, out.evio"/>
+	
+	<option name="PHYSICS" value="FTFP_BERT + STD + Optical"/>
+
+</gcard>
+
