@@ -47,7 +47,7 @@ require "./bank.pl";
 require "./hit.pl";
 
 
-require "./bazooka_geo.pl";
+require "./prototype.pl";
 
 require "./materials.pl";
 
@@ -69,7 +69,7 @@ foreach my $conf ( @allConfs )
 	# hits
 	define_hit();
 
-	buildBazooka();
+	buildProto();
 
 	materials();
 
